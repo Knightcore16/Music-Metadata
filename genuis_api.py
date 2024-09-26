@@ -1,6 +1,6 @@
 from lyricsgenius import Genius
 
-genius = Genius("3JSEPRgsMwkZmuetLogJErAX0htagvbPrg4MtlRUVUUoULWihwTpV1SMpZVsEp-l")
+genius = Genius('token')
 
 def get_song_info(song_id, cover_art_id):
 
