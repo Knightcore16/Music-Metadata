@@ -11,6 +11,6 @@ def get_song_info(song_id, cover_art_id):
     print(song['song']) 
 
     print("\nCover art details:")
-    print(cover_art)  
+    print(cover_art['cover_arts'][0]['image_url'])  
 
-get_song_info(6428196, 598308)
+get_song_info(5601084, 713229)
